@@ -29,5 +29,11 @@ git commit -m "Updated personal information"
 git push origin main
 
 
+# Files to Edit
+index.html (Your main welcome page)
+about.md (Your detailed bio)
+research.md (Details of your projects)
+publications.md (A list of your papers)
+
 
 
