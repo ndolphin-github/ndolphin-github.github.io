@@ -32,11 +32,12 @@ My Ph.D. research can be divided into the following core projects.
 
 ---
 
-## Contact
+
 
 ## Videos links
 
 
+## Contact
 * **Email:** [your.email@university.edu](mailto:your.email@university.edu)
 * **GitHub:** [@ndolphin-github](https://github.com/ndolphin-github)
 * **Google Scholar:** [Link to your profile]
