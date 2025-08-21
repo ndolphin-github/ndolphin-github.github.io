@@ -1,3 +1,5 @@
+git pull origin main
+
 cd E:\Git_page_source && git status
 
 cd E:\Git_page_source && git init
@@ -25,3 +27,7 @@ cd E:\Git_page_source
 git add .
 git commit -m "Updated personal information"
 git push origin main
+
+
+
+
