@@ -26,9 +26,9 @@ I am a Ph.D. candidate (expected February 2026) specializing in **tactile sensin
 - **Hardware**: DIGIT sensors, robotic manipulators
 
 ### Contact
-- **Email**: [your.email@university.edu]
+- **Email**: [ndolphin93@gmail.com]
 - **GitHub**: [github.com/ndolphin-github](https://github.com/ndolphin-github)
-- **LinkedIn**: [Your LinkedIn Profile]
+- **LinkedIn**: [www.linkedin.com/in/tae-hwa-hong-021b8725b] 
 
 ---
 
