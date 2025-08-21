@@ -1,18 +1,37 @@
 ---
-layout: page
+layout: default
 title: Home
 ---
 
-<h2 class="message">Research in Tactile Sensing & Robotic Manipulation</h2>
+<div class="posts">
+  {% for post in paginator.posts %}
+  <div class="post">
+    <h1 class="post-title">
+      <a href="{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </h1>
 
-<p>Welcome to my research portfolio. I am a Ph.D. researcher specializing in giving robots a human-like sense of touch. My work lies at the intersection of materials science, sensor design, and machine learning to solve complex challenges in robotic grasping and interaction.</p>
+    <span class="post-date">{{ post.date | date_to_string }}</span>
 
-<p>This site provides an overview of my doctoral work, including detailed project summaries and a list of my publications. Please use the navigation in the sidebar to explore further.</p>
+    {{ post.content }}
+  </div>
+  {% endfor %}
+</div>
 
-<div class="contact">
-  <p>
-    Feel free to explore my work in more detail:<br>
-    <a href="./research.html">View My Research Projects</a> | 
-    <a href="./publications.html">See My Publications</a>
-  </p>
+<div class="pagination">
+  {% if paginator.next_page %}
+    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
+  {% else %}
+    <span class="pagination-item older">Older</span>
+  {% endif %}
+  {% if paginator.previous_page %}
+    {% if paginator.page == 2 %}
+      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
+    {% else %}
+      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
+    {% endif %}
+  {% else %}
+    <span class="pagination-item newer">Newer</span>
+  {% endif %}
 </div>

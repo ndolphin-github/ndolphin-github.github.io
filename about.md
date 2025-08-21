@@ -3,25 +3,28 @@ layout: page
 title: About
 ---
 
-## About Me
+<p class="message">
+  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
+</p>
 
-I am a passionate and driven researcher with a Ph.D. in [Your Field, e.g., Mechanical Engineering] from [Your University]. My doctoral research focused on the development of novel tactile sensors and their application in robotic systems. I believe that a sophisticated sense of touch is the key to unlocking the next generation of intelligent, safe, and collaborative robots.
+In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
 
-My expertise covers the full research pipeline, from theoretical modeling and material fabrication to algorithm development and experimental validation.
+There are currently two themes built on Poole:
 
----
+* [Hyde](http://hyde.getpoole.com)
+* [Lanyon](http://lanyon.getpoole.com)
 
-### Core Competencies
+Learn more and contribute on [GitHub](https://github.com/poole).
 
-* **Tactile Sensing:** Design and fabrication of capacitive, piezoresistive, and optical sensors.
-* **Machine Learning:** Developing models in PyTorch and TensorFlow for sensor data processing and classification.
-* **Robotics:** ROS, motion planning, and control systems for robotic manipulators.
-* **Hardware:** Rapid prototyping with 3D printing, PCB design, and embedded systems.
+## Setup
 
----
+Some fun facts about the setup of this project include:
 
-### Education
+* Built for [Jekyll](http://jekyllrb.com)
+* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
+* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
+* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
 
-* **Ph.D. in [Your Field]** - *[Your University]*, [Year]
-* **M.S. in [Your Field]** - *[Your University]*, [Year]
-* **B.S. in [Your Field]** - *[Your University]*, [Year]
+Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
+
+Thanks for reading!
