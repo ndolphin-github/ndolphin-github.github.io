@@ -12,6 +12,12 @@ cd E:\Git_page_source && git branch -M main
 
 cd E:\Git_page_source && git push -u origin main
 
+# When files are diff: 
+
+git fetch origin
+git merge origin/main --allow-unrelated-histories
+git add .
+git commit -m "Merge and setup"
 
 Customize the index.html
 
