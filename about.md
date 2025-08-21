@@ -3,28 +3,33 @@ layout: page
 title: About
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+## About Me
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+I am a Ph.D. candidate (expected February 2026) specializing in **tactile sensing and robotics**. My research focuses on developing advanced haptic technologies and automation systems for robotic applications.
 
-There are currently two themes built on Poole:
+### Research Interests
+- **Tactile Sensing**: Development of DIGIT sensor technologies
+- **Robotics**: Automation and manipulation systems
+- **Machine Learning**: Neural networks for perception and control
+- **Simulation**: SOFA framework for haptic feedback systems
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+### Education
+- **Ph.D. in [Your Field]** (Expected Feb 2026)  
+  [Your University Name]
+- **[Previous Degree]** ([Year])  
+  [Previous Institution]
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+### Technical Skills
+- **Programming**: Python, C++, MATLAB
+- **Frameworks**: SOFA, ROS, PyTorch/TensorFlow
+- **Tools**: Git, Linux, Docker
+- **Hardware**: DIGIT sensors, robotic manipulators
 
-## Setup
+### Contact
+- **Email**: [your.email@university.edu]
+- **GitHub**: [github.com/ndolphin-github](https://github.com/ndolphin-github)
+- **LinkedIn**: [Your LinkedIn Profile]
 
-Some fun facts about the setup of this project include:
+---
 
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+*Feel free to explore my research posts and publications on this site.*
