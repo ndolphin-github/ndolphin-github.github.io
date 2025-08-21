@@ -1,26 +1,16 @@
-# Dependencies
-markdown:         redcarpet
-highlighter:      pygments
-
-# Permalinks
-permalink:        pretty
-relative_permalinks: true
-
-# Setup
-title:            Hyde
-tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              http://hyde.getpoole.com
-baseurl:          /
-
+# Hyde theme configuration for Taehwa Hong
+title:          Taehwa Hong, Ph.D.
+description:    "Research in Tactile Sensing and Robotics"
+url:            https://ndolphin-github.github.io
+baseurl:        ""
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:         Taehwa Hong
+  url:          https://ndolphin-github.github.io
 
-paginate:         5
+# Build settings
+markdown:    kramdown
+permalink:   /:title/
 
-# Custom vars
-version:          2.1.0
-
-github:
-  repo:           https://github.com/poole/hyde
+# Pagination for the homepage
+paginate:       5
+paginate_path:  "/page:num/"
