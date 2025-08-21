@@ -1,0 +1,29 @@
+#
+# Config file for the Hyde theme
+#
+
+# -- Site Settings ----
+title: Taehwa Hong, Ph.D.
+description: "Research in Tactile Sensing and Robotics"
+url: "https://ndolphin-github.github.io" # Your website's main address
+baseurl: ""                             # Keep this empty for your user page
+
+author:
+  name: "Taehwa Hong"
+  url: "https://ndolphin-github.github.io" # A link to your main page or GitHub profile
+
+# -- Build Settings ----
+markdown: kramdown
+permalink: /:title/  # How links to posts are structured
+
+# -- Theme Settings ----
+# This is the most important part for Hyde.
+# It sets the color scheme. You chose 'base-0c'.
+theme: theme-base-0c
+
+# -- Content Settings ----
+# Hyde uses pagination for blog posts. You can leave this as is.
+paginate: 5
+paginate_path: "/page:num/"
+
+# As of Thursday, August 21, 2025, this config is ready to go.
