@@ -3,35 +3,28 @@ layout: default
 title: Home
 ---
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
+<div class="page">
+  <h1>Welcome to My Research Portfolio</h1>
+  
+  <p>I am Taehwa Hong, a Ph.D. candidate at Seoul National University specializing in <strong>physics-based simulation</strong> and <strong>data generation for robotic learning</strong>.</p>
 
+  <h2>Research Focus</h2>
+  <p>My research addresses the <strong>fidelity-tractability trade-off</strong> in simulating complex physical interactions, particularly involving deformable structures and contact dynamics. I develop abstraction methodologies to create foundational simulation tools for training physically intelligent robots.</p>
+
+  <h2>Quick Links</h2>
+  <ul class="quick-links">
+    <li><a href="{{ site.baseurl }}/about/">Learn more about my background →</a></li>
+    <li><a href="{{ site.baseurl }}/research/">Explore my research projects →</a></li>
+    <li><a href="{{ site.baseurl }}/publications/">View my publications →</a></li>
+    <li><a href="https://github.com/ndolphin-github">Visit my GitHub profile →</a></li>
+  </ul>
+
+  <h2>Latest Updates</h2>
+  {% for post in site.posts limit:3 %}
+  <div class="post-preview">
+    <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
     <span class="post-date">{{ post.date | date_to_string }}</span>
-
-    {{ post.content }}
+    <p>{{ post.excerpt }}</p>
   </div>
   {% endfor %}
-</div>
-
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
 </div>
