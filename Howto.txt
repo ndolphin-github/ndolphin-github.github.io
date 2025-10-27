@@ -1,0 +1,40 @@
+git pull origin main
+
+cd E:\Git_page_source && git status
+
+cd E:\Git_page_source && git init
+
+cd E:\Git_page_source && git add .
+
+cd E:\Git_page_source && git commit -m
+
+cd E:\Git_page_source && git remote add origin https://github.com/ndolphin-github/ndolphin-github.github.io.git
+
+cd E:\Git_page_source && git branch -M main
+
+cd E:\Git_page_source && git push -u origin main
+
+# When files are diff: 
+
+git fetch origin
+git merge origin/main --allow-unrelated-histories
+git add .
+git commit -m "Merge and setup"
+
+Customize the index.html
+
+cd E:\Git_page_source
+git add .
+git commit -m "Updated personal information"
+git push origin main
+
+
+# Files to Edit
+index.html (Your main welcome page)
+about.md (Your detailed bio)
+research.md (Details of your projects)
+publications.md (A list of your papers)
+
+# Newest edit command:
+git add . && git commit -m "Update site content: about page, research page, publications, and first research post
+git push -u origin main --force

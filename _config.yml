@@ -1,0 +1,16 @@
+# Hyde theme configuration for Taehwa Hong
+title:          Taehwa Hong
+description:    "Research in Robotics Simulation"
+url:            https://ndolphin-github.github.io
+baseurl:        ""
+author:
+  name:         Taehwa Hong
+  url:          https://ndolphin-github.github.io
+
+# Build settings
+markdown:    kramdown
+permalink:   /:title/
+
+# Pagination for the homepage
+paginate:       5
+paginate_path:  "/page:num/"
