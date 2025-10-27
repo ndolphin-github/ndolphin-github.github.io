@@ -4,27 +4,55 @@ title: Home
 ---
 
 <div class="page">
-  <h1>Welcome to My Research Portfolio</h1>
-  
-  <p>I am Taehwa Hong, a Ph.D. candidate at Seoul National University specializing in <strong>physics-based simulation</strong> and <strong>data generation for robotic learning</strong>.</p>
+  <h1>Taehwa Hong</h1>
+  <p class="lead">Ph.D. Candidate in Mechanical Engineering | Robotics Simulation Researcher</p>
 
-  <h2>Research Focus</h2>
-  <p>My research addresses the <strong>fidelity-tractability trade-off</strong> in simulating complex physical interactions, particularly involving deformable structures and contact dynamics. I develop abstraction methodologies to create foundational simulation tools for training physically intelligent robots.</p>
+  <h2>About Me</h2>
+  <p>I am a Ph.D. candidate at Seoul National University (expected February 2026) specializing in <strong>physics-based simulation</strong> and <strong>data generation for robotic learning</strong>. My research addresses the <strong>fidelity-tractability trade-off</strong> in simulating complex physical interactions, particularly involving <strong>deformable structures</strong> and <strong>contact dynamics</strong>.</p>
 
-  <h2>Quick Links</h2>
-  <ul class="quick-links">
-    <li><a href="{{ site.baseurl }}/about/">Learn more about my background →</a></li>
-    <li><a href="{{ site.baseurl }}/research/">Explore my research projects →</a></li>
-    <li><a href="{{ site.baseurl }}/publications/">View my publications →</a></li>
-    <li><a href="https://github.com/ndolphin-github">Visit my GitHub profile →</a></li>
+  <p>To bridge this gap, I develop and validate <strong>abstraction methodologies</strong>, progressing from analytical models for real-time control, to data-driven surrogate models enabling reinforcement learning, and towards Neural Physics Engines (NPEs) for high-fidelity contact modeling. My goal is to create the foundational simulation tools and pipelines needed to generate high-quality, physically-grounded data for training the next generation of physically intelligent robots.</p>
+
+  <h2>Research Interests</h2>
+  <ul>
+    <li>Physics-Based Simulation (FEM, Rigid-Body)</li>
+    <li>Data Generation for Robot Learning (Sim-to-Real, Synthetic Data)</li>
+    <li>Contact Dynamics & Deformable Object Modeling</li>
+    <li>Neural Physics Engines (NPEs) & Learned Simulators</li>
+    <li>Reinforcement Learning for Control</li>
   </ul>
+
+  <h2>Education</h2>
+  <ul>
+    <li><strong>Integrated M.S./Ph.D. in Mechanical Engineering</strong> (Expected Feb 2026)<br>Seoul National University</li>
+    <li><strong>B.S. in Mechanical and Aerospace Engineering</strong> (Feb 2019)<br>Seoul National University</li>
+  </ul>
+
+  <h2>Technical Skills</h2>
+  <ul>
+    <li><strong>Simulation & Modeling</strong>: SOFA (FEM), PyBullet, Isaac Sim, MuJoCo, ABAQUS; Contact Mechanics, Deformable Body Dynamics, Model Order Reduction (MOR)</li>
+    <li><strong>Machine Learning</strong>: Python (PyTorch, TensorFlow, NumPy, SciPy), C++, MATLAB; Reinforcement Learning (RL - PPO, SAC), PINNs, Transformers, GNNs</li>
+    <li><strong>Robotics & Control</strong>: ROS2, Control Systems Design, Sim-to-Real Transfer, Sensor Calibration & Integration (Tactile, Force, Proprioceptive)</li>
+    <li><strong>Hardware & Design</strong>: SolidWorks, Blender, Onshape, AutoCAD; Mechanical Design, Prototyping (Soft Robots, Actuators)</li>
+  </ul>
+
+  <h2>Contact</h2>
+  <ul>
+    <li><strong>Email</strong>: <a href="mailto:ndolphin93@gmail.com">ndolphin93@gmail.com</a></li>
+    <li><strong>GitHub</strong>: <a href="https://github.com/ndolphin-github">github.com/ndolphin-github</a></li>
+    <li><strong>LinkedIn</strong>: <a href="https://www.linkedin.com/in/tae-hwa-hong-021b8725b">linkedin.com/in/tae-hwa-hong-021b8725b</a></li>
+    <li><strong>Google Scholar</strong>: <a href="https://scholar.google.co.kr/citations?user=kzrORlsAAAAJ&hl=ko">View my publications</a></li>
+  </ul>
+
+  <hr>
 
   <h2>Latest Updates</h2>
   {% for post in site.posts limit:3 %}
   <div class="post-preview">
     <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
     <span class="post-date">{{ post.date | date_to_string }}</span>
-    <p>{{ post.excerpt }}</p>
+    {% if post.excerpt %}
+      <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+    {% endif %}
   </div>
   {% endfor %}
 </div>
