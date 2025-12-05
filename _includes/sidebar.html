@@ -1,6 +1,9 @@
 <div class="sidebar">
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
+      <div class="sidebar-logo">
+        <img src="{{ site.baseurl }}public/logo.png" alt="{{ site.title }}" style="width: 100px; height: 100px; border-radius: 50%; margin-bottom: 15px;">
+      </div>
       <h1>
         <a href="{{ site.baseurl }}">
           {{ site.title }}
@@ -26,9 +29,6 @@
         {% endif %}
       {% endfor %}
 
-      <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a>
-      <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a>
-      <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
     </nav>
 
     <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
