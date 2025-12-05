@@ -3,35 +3,49 @@ layout: default
 title: Home
 ---
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
+## Research Overview
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+My doctoral research focuses on advancing tactile sensing technologies and their applications in robotics and automation systems.
 
-    {{ post.content }}
-  </div>
-  {% endfor %}
-</div>
+### Current Projects
 
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
-</div>
+#### 1. DIGIT Sensor Development
+Development of advanced tactile sensors using DIGIT technology for enhanced robotic manipulation and object recognition.
+
+**Key Features:**
+- High-resolution tactile imaging
+- Real-time contact detection
+- Integration with robotic systems
+
+#### 2. Haptic Simulation Framework
+Implementation of tactile feedback systems using the SOFA (Simulation Open Framework Architecture) for realistic haptic interactions.
+
+**Technologies:**
+- SOFA Framework
+- FEM simulation
+- Neural network integration
+
+#### 3. Perception Networks
+Machine learning approaches for processing tactile sensor data and enabling intelligent robotic decision-making.
+
+**Approaches:**
+- Deep neural networks
+- Computer vision techniques
+- Real-time processing algorithms
+
+### Research Impact
+
+My work contributes to the advancement of:
+- **Robotic Manipulation**: Improved dexterity and precision
+- **Automation Systems**: Enhanced safety and reliability
+- **Human-Robot Interaction**: More intuitive interfaces
+
+### Collaborations
+
+- [University/Lab Name]
+- [Industry Partner]
+- [Research Group]
+
+---
+
+For detailed publications and results, please see my [publications page]({{ site.baseurl }}/publications) or contact me directly.

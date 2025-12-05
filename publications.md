@@ -36,8 +36,8 @@ IEEE Robotics and Automation Letters (RAL),
 
 **[Expected 2026]** - **Hong, T.**  
 *"Accelerated, High-Fidelity Simulation of Deformable Bodies for Physics Abstraction in Robot Learning"*  
-[Seoul National University], Department of [Mechanical Engineering]  
-*Advisor: [Yong-Lae Park]*
+Seoul National University, Department of Mechanical Engineering  
+*Advisor: Yong-Lae Park*
 [[PDF]](Publications/TaehwaHong_Thesis.pdf) 
 
 
