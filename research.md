@@ -17,23 +17,25 @@ a unified data-driven abstraction framework. This approach decouples high-fideli
 
 ## Research Projects
 
-### 1. Wearable Soft Exoskeleton (NPE - Most Recent)
-Design and development of a fully-soft lift-assist wearable suit powered by flat inflatable artificial muscles.
+### 1.  (NPE - Most Recent)
+This research focuses on enabling real-time, high-fidelity simulation of contact mechanics for robotic manipulation. Standard rigid-body simulators use simplified contact models that fail to capture the complex deformation of soft sensors, while numerical solvers are too slow for online interaction.
 
-**Demo Video:**
+will be submittedd
+**Main Takeaway Video:**
 <video width="100%" controls>
   <source src="/Videos/Topic4NPE.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
-**Impact:**
-- **Robotic Manipulation**: Improved dexterity and precision
-- **Automation Systems**: Enhanced safety and reliability  
-- **Human-Robot Interaction**: More intuitive interfaces
+**Methods:**
+A Neural Physics Engine is developed using a geometry-aware Graph Neural Network. This network is trained on the high-fidelity dataset generated in the previous topic to predict full-field nodal deformations based on sparse contact primitives provided by a rigid-body simulator. The model acts as a fast proxy solver that injects soft-body physics into a rigid simulation loop.
+
+**Results**
+Takeaway The Neural Physics Engine achieves sub-millimeter accuracy in predicting deformation and runs significantly faster than traditional finite element solvers, enabling real-time simulation of contact-rich tasks. This capability allows for the zero-shot transfer of manipulation policies, such as peg-in-hole insertion, from simulation to the real world.
 
 **Links:**
-- 🔗 [GitHub Repository](https://github.com/ndolphin-github/wearable-exoskeleton)
-- 📄 [IEEE RAL Paper](/Publications/HongT_IEEE_RAL_2025.pdf)
+- [Code](https://github.com/ndolphin-github/VisionTactileSim_Mujoco)
+- [Paper] Expected Submission: Dec 2025
 
 ---
 
