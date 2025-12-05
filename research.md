@@ -107,7 +107,7 @@ The study derives a simplified kinematic model based on first principles, treati
 The proposed analytical model facilitates real-time, closed-loop position and force control of a soft manipulator using only embedded proprioceptive sensors, eliminating the need for computationally heavy finite element analysis during operation. However, the reliance on specific geometric patterns limits the generalizability of this approach to arbitrary soft body morphologies.
 
 **Links:**
-- 📄 [IJRR Paper](/Publications/HongTH_IJRR_2025.pdf)
+- 📄 [Paper](/Publications/HongTH_IJRR_2025.pdf)
 
 ---
 
