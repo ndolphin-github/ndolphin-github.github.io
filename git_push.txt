@@ -1,0 +1,11 @@
+# Check what changed
+git status
+
+# Add your changes
+git add .
+
+# Commit with a message
+git commit -m "Description of your changes"
+
+# Push to GitHub
+git push origin main

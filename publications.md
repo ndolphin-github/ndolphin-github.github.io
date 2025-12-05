@@ -7,64 +7,54 @@ title: Publications
 
 ### Journal Articles
 
-**[Year]** - **Hong, T.**, Author, B., & Author, C.  
-*"Title of Your Research Paper on Tactile Sensing"*  
-Journal of Robotics and Automation, Vol(Issue), pages.  
-[[PDF]](#) [[Code]](https://github.com/ndolphin-github/project-repo)
+**2025** - **Hong, T.** & Y-L Park.  
+*"Bridging High‐Fidelity Simulations and Physics‐Based Learning using a Surrogate Model for Soft Robot Control"*  
+Advances in Intelligent Systems (AIS),  
+[[PDF]](Publications/HongTH_AIS_2025.pdf) [[Code]](https://github.com/ndolphin-github/Sim2Real_framework_SoftRobot)
+
+**2025** - **Hong, T.**, J Yang & Y-L Park 
+*"Model-based control of proprioceptive origami actuators for pneumatic manipulation"*  
+International Journal of Robotics Research (IJRR)  
+[[PDF]](Publications/HongTH_IJRR_2025.pdf) 
+
+
+**2025** - **Hong, T.**, C Lee, S Chang, E Choi, B Kim, J Ahn, Y-L Park.  
+*"Design of A Fully-Soft Lift-Assist Wearable Suit Powered by Flat Inflatable Artificial Muscles"*  
+IEEE Robotics and Automation Letters (RAL),  
+[[PDF]](Publications/HongT_IEEE_RAL_2025.pdf) 
 
 ### Conference Proceedings
 
-**[Year]** - Author, A., **Hong, T.**, & Author, C.  
-*"Conference Paper on DIGIT Sensor Applications"*  
-Proceedings of IEEE International Conference on Robotics and Automation (ICRA)  
-[[PDF]](#) [[Slides]](#)
+**2025** - **Hong, T.** & Y-L Park.   
+*"Bidirectional Mapping Between Physical Contacts and Visual Tactile Images for Physics-Based Simulation"*  
+2025 IEEE-RAS 24th International Conference on Humanoid Robots,  
+[[PDF]](Publications/HongTH_Humanoids_2025.pdf) 
 
-**[Year]** - **Hong, T.** & Advisor, D.  
-*"Haptic Simulation Using SOFA Framework"*  
-International Conference on Haptics  
-[[PDF]](#) [[Demo]](#)
 
-### Workshop Papers
-
-**[Year]** - **Hong, T.**  
-*"Workshop Paper Title"*  
-Workshop on Tactile Sensing at [Conference Name]  
-[[PDF]](#)
 
 ### Theses
 
 **[Expected 2026]** - **Hong, T.**  
-*"Ph.D. Dissertation Title on Tactile Sensing and Robotics"*  
-[University Name], Department of [Department]  
-*Advisor: [Advisor Name]*
-
-### Code Repositories
+*"Accelerated, High-Fidelity Simulation of Deformable Bodies for Physics Abstraction in Robot Learning"*  
+[Seoul National University], Department of [Mechanical Engineering]  
+*Advisor: [Yong-Lae Park]*
+[[PDF]](Publications/TaehwaHong_Thesis.pdf) 
+<!-- ### Code Repositories
 
 - **[DIGIT Simulation](https://github.com/ndolphin-github/DIGIT_simulation)** - Tactile sensor simulation framework
 - **[Project Name]** - Description of the project
-- **[Another Project]** - Description
+- **[Another Project]** - Description -->
 
-### Patents & Intellectual Property
+<!-- ### Patents & Intellectual Property
 
-*[Add any patents or IP if applicable]*
+*[Add any patents or IP if applicable]* -->
 
-### Awards & Recognition
+<!-- ### Awards & Recognition
 
 - **[Year]** - Award Name, Organization
 - **[Year]** - Fellowship/Grant Name
-- **[Year]** - Conference Best Paper Award
+- **[Year]** - Conference Best Paper Award -->
 
 ---
 
-### Citation Information
-
-```bibtex
-@phdthesis{hong2026tactile,
-  title={Your Dissertation Title},
-  author={Hong, Taehwa},
-  year={2026},
-  school={Your University}
-}
-```
-
-For the most up-to-date list of publications, please check my [Google Scholar](https://scholar.google.com) profile or contact me directly.
+For the most up-to-date list of publications, please check my [Google Scholar](https://scholar.google.co.kr/citations?hl=ko&user=kzrORlsAAAAJ&view_op=list_works&sortby=pubdate) profile or contact me directly.

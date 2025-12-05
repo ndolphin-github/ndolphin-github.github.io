@@ -11,6 +11,6 @@ author:
 markdown:    kramdown
 permalink:   /:title/
 
-# Pagination disabled - using custom homepage
-# paginate:       5
-# paginate_path:  "/page:num/"
+# Pagination for the homepage
+paginate:       5
+paginate_path:  "/page:num/"
