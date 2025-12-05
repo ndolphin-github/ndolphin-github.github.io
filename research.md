@@ -5,7 +5,8 @@ title: Research
 
 ## About Me
 
-I am a Ph.D. candidate at Seoul National University, Department of Mechanical Engineering, under the supervision of Prof. Yong-Lae Park. My research focuses on advancing tactile sensing technologies and their applications in robotics and automation systems.
+My research focuses on bridging the reality gap in contact-rich physical interactions by proposing
+a unified data-driven abstraction framework. This approach decouples high-fidelity ground truth generation from runtime execution to resolve the fidelity-tractability trade-off.
 
 **Research Interests:**
 - Soft Robotics & Deformable Body Simulation
