@@ -115,6 +115,6 @@ The proposed analytical model facilitates real-time, closed-loop position and fo
 
 **Email:** ndolphin93@gmail.com  
 **Lab:** Soft Robotics and Bionics Lab, Seoul National University  
-**Google Scholar:** [Your Profile](https://scholar.google.co.kr/citations?hl=ko&user=kzrORlsAAAAJ&view_op=list_works&sortby=pubdate)
+**Google Scholar:** [Page](https://scholar.google.co.kr/citations?hl=ko&user=kzrORlsAAAAJ&view_op=list_works&sortby=pubdate)
 
 For detailed publications list, please visit my [publications page](/publications/) or download my [CV](/Publications/Taehwa%20Hong%20CV.pdf).
