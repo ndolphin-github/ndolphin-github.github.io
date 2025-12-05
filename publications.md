@@ -38,19 +38,21 @@ IEEE Robotics and Automation Letters (RAL),
 
 ### Co-authored Journal Articles
 
-**2023**DW. Kim, S. Lee, **T.Hong**, Y-L Park
+**2023** - DW. Kim, S. Lee, **T.Hong**, Y-L Park
 *"Exploration-based model learning with self-attention for risk-sensitive robot control"*  
 ,npj Robotics  
 
-**2021** F. Schwab , E. T. Lunsford , **T. Hong** , F. Wiesemüller , M. Kovac , Y-L Park , O. Akanyeti , J. C. Liao , A. Jusufi, 
-*"Body caudal undulation measured by soft sensors and emulated by soft artificial muscles"*,Integrative and Comparative Biology
+**2021** - F. Schwab , E. T. Lunsford , **T. Hong** , F. Wiesemüller , M. Kovac , Y-L Park , O. Akanyeti , J. C. Liao , A. Jusufi, 
+*"Body caudal undulation measured by soft sensors and emulated by soft artificial muscles"*,
+Integrative and Comparative Biology
 
-**2020** T. Kim, S. Lee, **T. Hong**, G. Shin, T. Kim, Y-L Park
+**2020** - T. Kim, S. Lee, **T. Hong**, G. Shin, T. Kim, Y-L Park
 *"Heterogeneous sensing in a multifunctional soft sensor for human-robot interfaces"*
-,Science robotics
+Science robotics
 
-**2020** HS Cho, T. Kim, **T. Hong**, Y-L Park 
-*"Ratchet-integrated pneumatic actuator (RIPA): A large-stroke soft linear actuator inspired by sarcomere muscle contraction"*, Bioinspiration & Biomimetics
+**2020** - HS Cho, T. Kim, **T. Hong**, Y-L Park 
+*"Ratchet-integrated pneumatic actuator (RIPA): A large-stroke soft linear actuator inspired by sarcomere muscle contraction"*
+Bioinspiration & Biomimetics
 
 ### Thesis
 
