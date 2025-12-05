@@ -56,8 +56,8 @@ The framework creates a closed loop between the visual and physical domains, ena
 
 
 **Links:**
-- 🔗 [GitHub Repository](https://github.com/ndolphin-github/DIGIT_simulation)
-- 📄 [Humanoids Conference Paper](/Publications/HongTH_Humanoids_2025.pdf)
+- 🔗 [Code](https://github.com/ndolphin-github/DIGIT_simulation)
+- 📄 [Paper](/Publications/HongTH_Humanoids_2025.pdf)
 
 --
 
@@ -84,17 +84,14 @@ The framework employs a data-driven surrogate modeling approach. A high-fidelity
 The surrogate model successfully bridges the reality gap, allowing reinforcement learning policies trained in a fast simulation to transfer zero-shot to a physical soft manipulator for trajectory tracking and force control tasks. This method provides a scalable pipeline for training soft robots by decoupling accurate physics generation from runtime execution.
 
 **Links:**
-- 🔗 [GitHub Repository](https://github.com/ndolphin-github/Sim2Real_framework_SoftRobot)
-- 📄 [AIS Journal Paper](/Publications/HongTH_AIS_2025.pdf)
-
----
+- 🔗 [Code](https://github.com/ndolphin-github/Sim2Real_framework_SoftRobot)
+- 📄 [Paper](/Publications/HongTH_AIS_2025.pdf)
 
 
 ---
 
 ### 4. Proprioceptive Origami Actuators (IJRR)
-Machine learning approaches for model-based control of pneumatic origami actuators for manipulation tasks.
-
+This research addresses the challenge of controlling soft manipulators constructed from origami cylinder modules, specifically those utilizing the Yoshimura pattern. While these structures offer lightweight and collapsible properties, their non-linear folding mechanics make traditional modeling computationally expensive and unsuitable for real-time control.
 
 
 **Demo Video:**
@@ -103,39 +100,14 @@ Machine learning approaches for model-based control of pneumatic origami actuato
   Your browser does not support the video tag.
 </video>
 
-**Approaches:**
-- Model-based control systems
-- Proprioceptive sensing
-- Pneumatic manipulation
-- Real-time processing algorithms
+**Method**
+The study derives a simplified kinematic model based on first principles, treating the actuator as a conservative energy system. The method decouples the deformation into axial and bending components, using geometric constraints and potential energy minimization to predict force and moment outputs. To enable real-time execution, these complex analytical relationships are precomputed into lookup tables, allowing the controller to rapidly infer strain and bending angles from pressure inputs and external loads.
+
+**Main Takeaway**
+The proposed analytical model facilitates real-time, closed-loop position and force control of a soft manipulator using only embedded proprioceptive sensors, eliminating the need for computationally heavy finite element analysis during operation. However, the reliance on specific geometric patterns limits the generalizability of this approach to arbitrary soft body morphologies.
 
 **Links:**
-- 🔗 [GitHub Repository](https://github.com/ndolphin-github/origami-control)
 - 📄 [IJRR Paper](/Publications/HongTH_IJRR_2025.pdf)
-
----
-
-## Selected Publications
-
-### Recent Journal Articles (2025)
-
-**"Bridging High‐Fidelity Simulations and Physics‐Based Learning using a Surrogate Model for Soft Robot Control"**  
-*Advances in Intelligent Systems (AIS)*  
-[[PDF]](/Publications/HongTH_AIS_2025.pdf) [[Code]](https://github.com/ndolphin-github/Sim2Real_framework_SoftRobot)
-
-**"Model-based control of proprioceptive origami actuators for pneumatic manipulation"**  
-*International Journal of Robotics Research (IJRR)*  
-[[PDF]](/Publications/HongTH_IJRR_2025.pdf)
-
-**"Design of A Fully-Soft Lift-Assist Wearable Suit Powered by Flat Inflatable Artificial Muscles"**  
-*IEEE Robotics and Automation Letters (RAL)*  
-[[PDF]](/Publications/HongT_IEEE_RAL_2025.pdf)
-
-### Recent Conference Papers (2025)
-
-**"Bidirectional Mapping Between Physical Contacts and Visual Tactile Images for Physics-Based Simulation"**  
-*2025 IEEE-RAS 24th International Conference on Humanoid Robots*  
-[[PDF]](/Publications/HongTH_Humanoids_2025.pdf)[[Code]](https://github.com/ndolphin-github/DIGIT_simulation)
 
 ---
 
