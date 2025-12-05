@@ -28,7 +28,7 @@ IEEE Robotics and Automation Letters (RAL),
 **2025** - **T. Hong** & Y-L Park.   
 *"Bidirectional Mapping Between Physical Contacts and Visual Tactile Images for Physics-Based Simulation"*  
 2025 IEEE-RAS 24th International Conference on Humanoid Robots,  
-[[PDF]](/Publications/HongTH_Humanoids_2025.pdf) 
+[[PDF]](/Publications/HongTH_Humanoids_2025.pdf) [[Code]](https://github.com/ndolphin-github/DIGIT_simulation)
 
 **2020** - **T. Hong**, SH Park, JH Park, NJ Paik, & Y-L Park.
 *"Design of Pneumatic Origami Muscle Actuators (POMAs) for A Soft Robotic Hand Orthosis for Grasping Assistance"*  
