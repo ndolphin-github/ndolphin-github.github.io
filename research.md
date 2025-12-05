@@ -9,17 +9,11 @@ My research focuses on bridging the reality gap in contact-rich physical interac
 a unified data-driven abstraction framework. This approach decouples high-fidelity ground truth generation from runtime execution to resolve the fidelity-tractability trade-off.
 
 **Research Interests:**
+- Physics-based Simulation
 - Soft Robotics & Deformable Body Simulation
-- Tactile Sensing & Haptic Feedback Systems
-- Physics-Based Machine Learning
-- Robot Learning & Manipulation
+- Tactile Sensing 
+- Contact Rich Manipulation
 
-**Education:**
-- **Ph.D. Candidate** (Expected 2026) - Mechanical Engineering, Seoul National University
-- **M.S.** - [Add your Master's degree info]
-- **B.S.** - [Add your Bachelor's degree info]
-
----
 
 ## Research Projects
 
@@ -48,9 +42,10 @@ Implementation of high-fidelity simulation and surrogate models for soft robot c
 
 **Demo Video:**
 <video width="100%" controls>
-  <source src="/Videos/Topic1.mp4" type="video/mp4">
+  <source src="/Videos/Topic2_result.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+
 
 **Technologies:**
 - SOFA Framework
@@ -88,9 +83,11 @@ Development of advanced tactile sensors using DIGIT technology for enhanced robo
 ### 4. Proprioceptive Origami Actuators (IJRR)
 Machine learning approaches for model-based control of pneumatic origami actuators for manipulation tasks.
 
+
+
 **Demo Video:**
 <video width="100%" controls>
-  <source src="/Videos/Topic2_result.mp4" type="video/mp4">
+  <source src="/Videos/Topic1.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -126,14 +123,14 @@ Machine learning approaches for model-based control of pneumatic origami actuato
 
 **"Bidirectional Mapping Between Physical Contacts and Visual Tactile Images for Physics-Based Simulation"**  
 *2025 IEEE-RAS 24th International Conference on Humanoid Robots*  
-[[PDF]](/Publications/HongTH_Humanoids_2025.pdf)
+[[PDF]](/Publications/HongTH_Humanoids_2025.pdf)[[Code]](https://github.com/ndolphin-github/DIGIT_simulation)
 
 ---
 
 ## Contact & Collaborations
 
-**Email:** [your-email@snu.ac.kr]  
-**Lab:** [Lab Name], Seoul National University  
+**Email:** [ndolphin93@gmail.com]  
+**Lab:** [Soft Robotics and Bionics Lab], Seoul National University  
 **Google Scholar:** [Your Profile](https://scholar.google.co.kr/citations?hl=ko&user=kzrORlsAAAAJ&view_op=list_works&sortby=pubdate)
 
 For detailed publications list, please visit my [publications page](/publications/) or download my [CV](/Publications/TaehwaHong_CV.pdf).
