@@ -30,16 +30,38 @@ will be submittedd
 **Methods:**
 A Neural Physics Engine is developed using a geometry-aware Graph Neural Network. This network is trained on the high-fidelity dataset generated in the previous topic to predict full-field nodal deformations based on sparse contact primitives provided by a rigid-body simulator. The model acts as a fast proxy solver that injects soft-body physics into a rigid simulation loop.
 
-**Results**
+**Main Takeaway**
 Takeaway The Neural Physics Engine achieves sub-millimeter accuracy in predicting deformation and runs significantly faster than traditional finite element solvers, enabling real-time simulation of contact-rich tasks. This capability allows for the zero-shot transfer of manipulation policies, such as peg-in-hole insertion, from simulation to the real world.
 
 **Links:**
-- [Code](https://github.com/ndolphin-github/VisionTactileSim_Mujoco)
-- [Paper] Expected Submission: Dec 2025
+- 🔗 [Code](https://github.com/ndolphin-github/VisionTactileSim_Mujoco)
+- 📄 [Paper] Expected Submission: Dec 2025
 
 ---
 
-### 2. Soft Robot Control & Simulation Framework (AIS Journal)
+### 2. DIGIT Sensor & Tactile Simulation (Humanoids Conference)
+This work addresses the data scarcity issue in vision-based tactile sensing, where high-resolution visual data exists but lacks corresponding physical ground truth such as force and deformation fields. Existing simulators often prioritize visual realism over mechanical accuracy, limiting their utility for physically grounded learning.
+
+**Demo Video:**
+<video width="100%" controls>
+  <source src="/Videos/topic3.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+**Methods**
+A bidirectional data pipeline is established using a finite element model of a sensor that is rigorously calibrated to real-world indentation data. Two neural networks are trained on paired datasets: a perception network that infers dense physical states from real tactile images, and a rendering network that synthesizes photorealistic images from simulated physical states.
+
+**Main Takeaway**
+The framework creates a closed loop between the visual and physical domains, enabling the automatic annotation of real-world tactile images with physical data and the generation of large-scale, physically grounded synthetic datasets. This resolves the labeling bottleneck for tactile perception tasks.
+
+
+**Links:**
+- 🔗 [GitHub Repository](https://github.com/ndolphin-github/DIGIT_simulation)
+- 📄 [Humanoids Conference Paper](/Publications/HongTH_Humanoids_2025.pdf)
+
+--
+
+### 3. Soft Robot Control & Simulation Framework (AIS Journal)
 Implementation of high-fidelity simulation and surrogate models for soft robot control using physics-based learning.
 
 **Demo Video:**
@@ -61,24 +83,6 @@ Implementation of high-fidelity simulation and surrogate models for soft robot c
 
 ---
 
-### 3. DIGIT Sensor & Tactile Simulation (Humanoids Conference)
-Development of advanced tactile sensors using DIGIT technology for enhanced robotic manipulation and object recognition.
-
-**Demo Video:**
-<video width="100%" controls>
-  <source src="/Videos/topic2.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
-**Key Features:**
-- High-resolution tactile imaging
-- Real-time contact detection
-- Integration with robotic systems
-- Physics-based simulation framework
-
-**Links:**
-- 🔗 [GitHub Repository](https://github.com/ndolphin-github/tactile-simulation)
-- 📄 [Humanoids Conference Paper](/Publications/HongTH_Humanoids_2025.pdf)
 
 ---
 
