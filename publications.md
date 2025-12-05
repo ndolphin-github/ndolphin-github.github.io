@@ -39,11 +39,8 @@ IEEE Robotics and Automation Letters (RAL),
 [Seoul National University], Department of [Mechanical Engineering]  
 *Advisor: [Yong-Lae Park]*
 [[PDF]](Publications/TaehwaHong_Thesis.pdf) 
-<!-- ### Code Repositories
 
-- **[DIGIT Simulation](https://github.com/ndolphin-github/DIGIT_simulation)** - Tactile sensor simulation framework
-- **[Project Name]** - Description of the project
-- **[Another Project]** - Description -->
+
 
 <!-- ### Patents & Intellectual Property
 
