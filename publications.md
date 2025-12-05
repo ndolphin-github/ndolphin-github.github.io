@@ -40,10 +40,10 @@ IEEE Robotics and Automation Letters (RAL),
 
 **2023** - DW. Kim, S. Lee, **T.Hong**, Y-L Park
 *"Exploration-based model learning with self-attention for risk-sensitive robot control"*  
-,npj Robotics  
+npj Robotics  
 
-**2021** - F. Schwab , E. T. Lunsford , **T. Hong** , F. Wiesemüller , M. Kovac , Y-L Park , O. Akanyeti , J. C. Liao , A. Jusufi, 
-*"Body caudal undulation measured by soft sensors and emulated by soft artificial muscles"*,
+**2021** - F. Schwab , E. T. Lunsford , **T. Hong** , F. Wiesemüller , M. Kovac , Y-L Park , O. Akanyeti , J. C. Liao , A. Jusufi 
+*"Body caudal undulation measured by soft sensors and emulated by soft artificial muscles"*
 Integrative and Comparative Biology
 
 **2020** - T. Kim, S. Lee, **T. Hong**, G. Shin, T. Kim, Y-L Park
