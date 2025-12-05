@@ -17,7 +17,7 @@ a unified data-driven abstraction framework. This approach decouples high-fideli
 
 ## Research Projects
 
-### 1.  (NPE - Most Recent)
+### 1.  Geometry-Aware Neural Physics Engine for Vision Tactile Sensor
 This research focuses on enabling real-time, high-fidelity simulation of contact mechanics for robotic manipulation. Standard rigid-body simulators use simplified contact models that fail to capture the complex deformation of soft sensors, while numerical solvers are too slow for online interaction.
 
 will be submittedd
@@ -39,7 +39,7 @@ Takeaway The Neural Physics Engine achieves sub-millimeter accuracy in predictin
 
 ---
 
-### 2. DIGIT Sensor & Tactile Simulation (Humanoids Conference)
+### 2. DIGIT Sensor & Tactile Simulation 
 This work addresses the data scarcity issue in vision-based tactile sensing, where high-resolution visual data exists but lacks corresponding physical ground truth such as force and deformation fields. Existing simulators often prioritize visual realism over mechanical accuracy, limiting their utility for physically grounded learning.
 
 **Demo Video:**
@@ -61,8 +61,14 @@ The framework creates a closed loop between the visual and physical domains, ena
 
 --
 
-### 3. Soft Robot Control & Simulation Framework (AIS Journal)
-Implementation of high-fidelity simulation and surrogate models for soft robot control using physics-based learning.
+### 3. Surrogate Model for Soft Robot Dynamics 
+This research aims to resolve the trade-off between physical fidelity and computational speed in simulating soft robots for reinforcement learning. High-fidelity finite element method simulations are accurate but too slow for learning, while rigid-body simulators are fast but lack physical realism regarding deformation.
+
+**Demo Video:**
+<video width="100%" controls>
+  <source src="/Videos/topic2.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 **Demo Video:**
 <video width="100%" controls>
@@ -71,11 +77,11 @@ Implementation of high-fidelity simulation and surrogate models for soft robot c
 </video>
 
 
-**Technologies:**
-- SOFA Framework
-- FEM simulation
-- Neural network integration
-- Sim2Real transfer learning
+**Methods**
+The framework employs a data-driven surrogate modeling approach. A high-fidelity simulation is first calibrated to the real robot and then compressed using model order reduction to generate a training dataset. A transformer-based physics-informed neural network is trained to learn the forward dynamics from this data. This learned model is then mapped to a simplified virtual kinematic chain (surrogate) within a fast physics engine, enabling rapid policy training.
+
+**Main Takeaway**
+The surrogate model successfully bridges the reality gap, allowing reinforcement learning policies trained in a fast simulation to transfer zero-shot to a physical soft manipulator for trajectory tracking and force control tasks. This method provides a scalable pipeline for training soft robots by decoupling accurate physics generation from runtime execution.
 
 **Links:**
 - 🔗 [GitHub Repository](https://github.com/ndolphin-github/Sim2Real_framework_SoftRobot)
