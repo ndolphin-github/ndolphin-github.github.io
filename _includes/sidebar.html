@@ -5,7 +5,7 @@
         <img src="{{ site.baseurl }}public/logo.png" alt="{{ site.title }}" style="width: 100px; height: 100px; border-radius: 50%; margin-bottom: 15px;">
       </div>
       <h1>
-        <a href="{{ site.baseurl }}">
+        <a href="/">
           {{ site.title }}
         </a>
       </h1>
@@ -13,7 +13,7 @@
     </div>
 
     <nav class="sidebar-nav">
-      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
+      <a class="sidebar-nav-item{% if page.url == '/' %} active{% endif %}" href="/">Home</a>
 
       {% comment %}
         The code below dynamically generates a sidebar nav of pages with
