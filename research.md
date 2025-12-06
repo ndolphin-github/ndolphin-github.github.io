@@ -20,7 +20,7 @@ a unified data-driven abstraction framework. This approach decouples high-fideli
 ### 1.  Geometry-Aware Neural Physics Engine for Vision Tactile Sensor
 This research focuses on enabling real-time, high-fidelity simulation of contact mechanics for robotic manipulation. Standard rigid-body simulators use simplified contact models that fail to capture the complex deformation of soft sensors, while numerical solvers are too slow for online interaction.
 
-will be submittedd
+
 **Main Takeaway Video:**
 <video width="100%" controls>
   <source src="/Videos/Topic4NPE.mp4" type="video/mp4">
