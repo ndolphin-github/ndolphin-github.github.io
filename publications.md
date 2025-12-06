@@ -56,7 +56,7 @@ Bioinspiration & Biomimetics
 
 ### Thesis
 
-**[Expected 2026]** - **Hong, T.**  
+**[Expected 2026]** - **T. Hong**  
 *"Accelerated, High-Fidelity Simulation of Deformable Bodies for Physics Abstraction in Robot Learning"*  
 Seoul National University, Department of Mechanical Engineering  
 *Advisor: Yong-Lae Park*
